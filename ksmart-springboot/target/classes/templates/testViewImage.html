@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<h1>View Photo</h1>
+Title: <span th:text="${name}">name</span>
+<img alt="sample" th:src="*{'data:image/png;base64,'+image}" />
+</body>
+</html>
